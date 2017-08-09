@@ -2,8 +2,11 @@
 
 Random text
 
-```markdown 
-Syntax highlighted code block
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 # Header 1
 ## Header 2
